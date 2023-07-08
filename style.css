@@ -8,6 +8,15 @@
     font-family: 'Hind Siliguri', sans-serif;
 
 }
+
+/* Common Styles */
+.primary{
+    color: #FF5E3A;
+}
+.primary-bg{
+    background-color: #FF5E3A;
+}
+
 header{
     z-index: 20;
 }
@@ -48,12 +57,15 @@ header{
     background: linear-gradient(175deg,white,#ffa5a0);
 }
 .banner-logo img{
-    width: 250px;
+    width: 400px;
 }
 .title{
     font-size: 2.5rem;
     font-weight: bold;
     margin: 10px 0;
+}
+.description{
+    font-size: large;
 }
 .btn{
     background-color: #FF5E3A;
@@ -61,6 +73,8 @@ header{
     margin: 15px 0;
     border: none;
     border-radius: 3px;
+    font-size: medium;
+    font-weight: 600;
     color: white;
 }
 .btn:hover{
